@@ -1,0 +1,314 @@
+.main-cnt{
+    height: 550px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 40px;
+    margin: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cnt-1{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* background-color: rgb(211, 223, 178); */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    /* border-bottom: 1px solid rgb(201, 197, 197) ; */
+    display: flex;
+    color: black;
+    font-size: 15px;
+}
+
+.time{
+    margin: 7px 0 0 15px;
+    font-size: 12px;
+}
+
+.logo{
+    margin: 7px 0 0 10px;
+    color: black;
+    font-size: 12px;  
+}
+
+.network{
+    margin: 7px 0 0 130px;
+    font-size: 12px;
+}
+
+.wifi{
+    margin: 7px 0 0 10px;
+    font-size: 12px;
+}
+
+.battery{
+    margin: 7px 0 0 10px;
+    
+}
+
+
+.cnt-2{
+    height: 50px;
+    width: 100%;
+    /* border-bottom: 1px solid rgb(201, 197, 197) ; */
+    /* background-color: rgba(106, 167, 159, 0.242); */
+    display: flex;
+    color: black;
+    font-size: 20px;  
+}
+
+.bars{
+    margin: 32px 0 0 10px;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.appname{
+    margin: 15px 0 0 20px;
+    font-weight: bold;
+}
+
+.like{
+    margin: 20px 0 0 110px;
+    font-size: 15px;
+}
+
+.message{
+    margin: 20px 0 0 20px;
+    font-size: 15px;
+}
+
+.cnt-3{
+    height: 75px;
+    width: 100%;
+    border-bottom: 1px solid rgb(201, 197, 197) ;
+    /* background-color: rgba(106, 167, 159, 0.242); */
+    display: flex;
+    color: black;
+    font-size: 20px; 
+    justify-content: space-around;
+}
+
+.story-cnt{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+
+.storyout{
+    height: 45px;
+    width: 45px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.storyin1{
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(tony.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.storyin2{
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(pepper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.storyin3{
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(captain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.storyin4{
+    height: 40px;
+    width: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(thor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uname{
+    height: 16px;
+    width: 100%;
+    /* background-color: pink; */
+    font-size: 8px;
+    text-align: center;
+    margin: 3px 0 0 0;
+}
+
+p{
+    font-size: 12px;
+}
+
+.post-cnt{
+    height: 308px;
+    width: 100%;
+    /* background-color: gainsboro; */
+}
+
+.post-profile{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(201, 197, 197);
+    display: flex;
+}
+
+.userprofile{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(silogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px 0 0 10px;
+}
+
+.username{
+    margin: 18px 0 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.dots{
+    font-style: 18px;
+    margin: 15px 0 0 120px;
+}
+
+.post{
+    height: 200px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-image: url(sipost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-work{
+    height: 30px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    font-size: 15px;
+}
+
+.heart{
+    margin: 10px 0 0 10px;
+}
+
+.comment{
+    margin: 10px 0 0 10px;
+}
+
+.share{
+    margin: 10px 0 0 10px;
+}
+
+.save{
+    margin: 10px 0 0 120px;
+}
+
+.post-caption{
+    height: 30px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+}
+
+#username{
+    font-size: 10px;
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+}
+
+.post-desc{
+    font-size: 10px;
+    margin: 10px 0 0 5px;
+    display: flex;
+}
+
+#hashtag{
+    color: blue;
+}
+
+.task-cnt{
+    height: 40px;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    border-top:1px solid rgb(201, 197, 197);
+}
+.homepage{
+    margin: 8px 0 0 0;
+}
+
+.search{
+    margin: 8px 0 0 0;
+}
+
+.plus{
+    margin: 8px 0 0 0;
+}
+
+.profile{
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(tony.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8px 0 0 0;
+    
+}
+
+.navigationbar{
+    height: 45px;
+    width: 100%;
+    /* border: 1px solid green; */
+    /* background-color: antiquewhite; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+}
+
+.recent{
+    margin: 15px 0 0 50px;
+}
+
+.home{
+    margin: 15px 0 0 80px;
+}
+
+.back{
+    margin: 15px 0 0 80px;
+}
